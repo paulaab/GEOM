@@ -32,6 +32,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".50"
+            android:paddingTop="10dp"
             android:text="@string/warningAccident"/>
         <Button
             android:id="@+id/trafficjamButton"
@@ -39,7 +40,18 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".50"
+            android:paddingTop="10dp"
             android:text="@string/warningTrafficJam"/>
+        <Button
+            android:id="@+id/speedlimitButton"
+            android:theme="@style/AppTheme.ButtonStop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:paddingTop="10dp"
+            android:text="Speed Limit"/>
+
+
     </LinearLayout>
 
 
